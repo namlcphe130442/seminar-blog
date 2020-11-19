@@ -1,3 +1,4 @@
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -595,3 +596,37 @@ pre tt:after {
     font-size: 100%;
   }
 }
+main {
+  max-width: 1344px;
+  margin: 0 auto;
+  padding: 60px 15px 60px 15px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+footer {
+  min-height: 500px;
+  background: #2b2523;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer svg {
+  width: 35%;
+}
+
+.tim-bay {
+  font-size: 30px;
+  transition: all .3s ease-out;
+  animation: fly 1.5s ease-out;
+  cursor: default;
+ }
+ 
+ @keyframes fly {
+   to {
+     transform: translateY(-120px);
+     font-size: 48px;
+     opacity: 0;
+   }
+ }

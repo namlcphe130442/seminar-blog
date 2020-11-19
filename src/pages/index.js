@@ -1,21 +1,43 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import Post from "../components/post"
 import SEO from "../components/seo"
+import image from "../images/blog-index.jpg"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    <Post
+      title="Fabbi JSC"
+      time="11/11/111"
+      image={image}
+      content="The Content Delivery API (CDA), available at cdn.contentful.com, is a read-only API for delivering content from Contentful to apps, websites and other media. Content is delivered as JSON data, and images, videos and other media as files."
+    />
+    <Post
+      title="Fabbi JSCd ddddd "
+      time="11/11/111"
+      image={image}
+      content="The Content Delivery API (CDA), available at cdn.contentful.com, is a read-only API for delivering content from Contentful to apps, websites and other media. Content is delivered as JSON data, and images, videos and other media as files."
+    />
+    <Post
+      title="Fabbi JSC"
+      time="11/11/111"
+      image={image}
+      content="The Content Delivery API (CDA), available at cdn.contentful.com, is a read-only API for delivering content from Contentful to apps, websites and other media. Content is delivered as JSON data, and images, videos and other media as files."
+    />
+    <Post
+      title="Fabbi JSCssss sssssss"
+      time="11/11/111"
+      image={image}
+      content="The Content Delivery API (CDA), available at cdn.contentful.com, is a read-only API for delivering content from Contentful to apps, websites and other media. Content is delivered as JSON data, and images, videos and other media as files."
+    />
+    <Post
+      title="Fabbi JSC"
+      time="11/11/111"
+      image={image}
+      content="The Content Delivery API (CDA), available at cdn.contentful.com, is a read-only API for delivering content from Contentful to apps, websites and other media. Content is delivered as JSON data, and images, videos and other media as files."
+    />
   </Layout>
 )
 
